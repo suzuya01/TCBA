@@ -1,0 +1,62 @@
+.btn-contact:hover{
+    background-color: rgb(11, 94, 89);
+    border:0;
+    height: 47px;
+    cursor: pointer;
+}
+
+.header_menu_point>a:hover{
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn_card:hover{
+    background-color: rgb(11, 94, 89);
+    cursor: pointer;
+}
+
+.btn_AboutUs:hover{
+    background-color: rgb(11, 94, 89);
+    border:0;
+    height: 47px;
+    cursor: pointer;
+}
+
+.container_gallery img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.button input[type="button"]:hover {
+    background: #2b6868;
+    cursor: pointer;
+    transform: scale(0.98);
+}
+
+.social_network>a>img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.content>ul>li>a:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+@keyframes jump {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(5px);
+    }
+}
+
+#btnScrollUp:hover{
+    transition: all 0.3s;
+    animation: jump 1s infinite alternate linear;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px #09857e;
+    text-shadow: 1px 1px 5px #09857e;
+}
